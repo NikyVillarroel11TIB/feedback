@@ -78,3 +78,38 @@ body{
 
         transition: all ease-in-out 0.3s;
     }
+    .botoes button:hover{
+        color:var(--white);
+        background-color:var(--orange);
+        cursor: pointer;
+    }
+
+.botoes button:focus{
+    color:var(--white);
+    background-color:var(--light-grey);
+}
+
+.card > a{
+    display: block;
+    width: 100%;
+    padding: 13px;
+    background-color:var(--orange);
+    border: none;
+    border-radius:22px;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+
+    transition: all ease-in-out 0.2s;
+}
+
+.card > a:hover{
+    color:var(--orange);
+    background-color: var(--white);
+    cursor: pointer;
+}
